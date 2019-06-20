@@ -8,6 +8,8 @@
 
 使用开发者工具选中图片到相应位置替换空白图片
 
+网页运行效果浏览：> https://easetemplate.com/free-website-templates/travelair/index.html
+
 分工：
 
 郑博洋：index、tour-list、accordions、about
