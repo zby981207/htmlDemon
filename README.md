@@ -80,14 +80,8 @@
                                 </div>
 ```
 
-分工：
+报告书可介绍特点
 
-郑博洋：index、tour-list、accordions、about
+bookstrap框架
 
-柴山清：tour-single-list、tour-single
-
-边琳琳：about、testimonials
-
-张世豪：tour-booking、gallery
-
-黄家俊：call-to-action、contact-us
+video.js视频播放
