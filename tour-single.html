@@ -8,7 +8,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <!-- 视频播放器video.js -->
     <title>Travelair Agency HTML Website Template - Tour Single Page</title>
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Style CSS -->
@@ -249,14 +253,22 @@
                         </div>
                         <div class="video-section">
                             <h3 class="mb30">视频</h3>
-                            <div class="video-block">
+                            <!-- <div class="video-block">
                             <div class="video-img">
                                 <img src="./images/video_img.jpg" alt="">
                                 <a href="#" class="video-btn">
                                     <img src="./images/play_btn.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                                </a> -->
+                                <video id='my-video' class='video-js' controls preload='auto' width='640' height='264'
+                                    poster='./images/ckin.jpg' data-setup='{}'>
+                                    <source src='./images/ckin.mp4' type='video/mp4'>
+                                    <source src='MY_VIDEO.webm' type='video/webm'>
+                                    <p class='vjs-no-js'>
+                                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                    <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                                    </p>
+                                </video>
+                        <!-- </div> -->
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
@@ -525,6 +537,7 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/date.js"></script>
     <script src="js/return-to-top.js"></script>
+    <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
      
    
     <script>
